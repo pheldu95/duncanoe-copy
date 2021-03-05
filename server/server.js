@@ -39,7 +39,7 @@ app.use('/api/entryPoints', entryPointsRouter)
 app.use('/api/packingList', packingList);
 app.use('/api/groupPackingList', groupPackingList);
 app.use('/api/outfitters', outfittersRouter);
-// app.use('/api/send', sendList);
+app.use('/api/send', sendList);
 app.use('/api/meals', mealsRouter);
 // Serve static files
 app.use(express.static('build'));
